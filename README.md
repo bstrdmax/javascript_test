@@ -1,2 +1,0 @@
-# javascript_test
-test
