@@ -6,3 +6,4 @@ console.log(firstFavNum-secondFavNum);
 console.log(firstFavNum*secondFavNum);
 console.log(firstFavNum/secondFavNum);
 console.log(firstFavNum%secondFavNum);
+console.log(firstFavNum** 1);
