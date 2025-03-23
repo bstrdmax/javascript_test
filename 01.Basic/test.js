@@ -9,3 +9,5 @@ console.log(whatDoYouWannaBecomeInYourLife);
 console.log(gender);
 console.log(twitterHandle;);
 console.clear;
+console.log(firstName);
+console.log(whatDoYouWannaBecomeInYourLife);
