@@ -1,13 +1,8 @@
-let firstName='Jason';
-let whatDoYouWannaBecomeInYourLife='programmer';
-let gender='male';
-let twitterHandle='@jasonwilliam_79';
+let firstFavNum = 37;
+let secondFavNum = 7;
 
-
-console.log(firstName);
-console.log(whatDoYouWannaBecomeInYourLife);
-console.log(gender);
-console.log(twitterHandle;);
-console.clear;
-console.log(firstName);
-console.log(whatDoYouWannaBecomeInYourLife);
+console.log(firstFavNum+secondFavNum);
+console.log(firstFavNum-secondFavNum);
+console.log(firstFavNum*secondFavNum);
+console.log(firstFavNum/secondFavNum);
+console.log(firstFavNum%secondFavNum);
