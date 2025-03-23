@@ -7,4 +7,5 @@ let twitterHandle='@jasonwilliam_79';
 console.log(firstName);
 console.log(whatDoYouWannaBecomeInYourLife);
 console.log(gender);
-console.log(twitterHandle);
+console.log(twitterHandle;);
+console.clear;
