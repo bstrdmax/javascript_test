@@ -7,4 +7,4 @@ console.log(fullName);
 console.log(firstName.length)
 console.log(firstName.slice(0,4));
 console.log(firstName.split(""));
-
+console.log(firstName.split(" "));
