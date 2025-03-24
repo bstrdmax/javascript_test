@@ -1,12 +1,13 @@
-let a = 15;
-let b = 10;
 
-if(a>b) {console.log("yes a is bigger");
 
+let myPassword = "CatMoogl";
+let password;
+
+if(myPassword.length===8) {password = "Welcome";console.log(password);
 }
-    else if(b>a) {console.log("b is bigger");
-
-    }
-        else {console.log("they are equal");
-
-        };
+else if(myPassword.length<=8) {password = "Paaword is too short";console.log(password);
+}
+else if (myPassword.length>=8) {password="Too Long Password, Password should be 8 characters";console.log(password);
+}
+else {password= "Please provide a password";console.log(password);
+}
