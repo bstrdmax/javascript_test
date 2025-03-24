@@ -5,5 +5,6 @@ let fullName = firstName.concat(secondName);
 console.log(firstName);
 console.log(fullName);
 console.log(firstName.length)
+console.log(firstName.slice(0,4));
 
 
