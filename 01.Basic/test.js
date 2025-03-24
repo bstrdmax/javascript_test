@@ -1,6 +1,8 @@
-let firstFavNum = 37;
-let secondFavNum = 7;
+let firstName = "jason";
+let secondName = "maxwell";
+let fullName = firstName.concat( secondName);
 
-console.log(firstFavNum==7);
-console.log(37==37);
-console.log(8>=37);
+console.log(firstName);
+console.log(fullName);
+
+
