@@ -2,19 +2,31 @@
 
 //switch(expression){case x: print break;}
 
-let x=0;
-let blub;
+let day='monday';
 
-switch (x){
-    case 0:
-        bulb="off"
-        console.log(bulb);
+switch (day){
+    case "monday":
+        console.log("today is monday")
         break;
-    case 1:
-        blub="on"
-        console.log(bulb);
+    case "tuesday":
+        console.log("today is tuesday")
+        break;
+    case "wednesday":
+        console.log("today is Wednesday")
+        break;
+    case "thursday":
+        console.log("today is thursday")
+        break;
+    case "friday":
+        console.log("today is friday")
+        break;
+    case "saturday":
+        console.log("today is saturday")
+        break;
+    case "sunday":
+        console.log("today is sunday")
         break;
     default:
-        bulb="no value found";
-        console.log(bulb);
+        console.log("Not sure the day today")
+    
 }
