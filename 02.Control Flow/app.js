@@ -1,7 +1,10 @@
-// for loop
-//DRY > don't repeat yourself
-//for(initialExpression; condition; incrementExpression) {}
+// for while Loop
+// while(condition){ }
 
-for (let i=0; i<=1000; i++){
-    console.log("Jason W Maxwell",i);
+let i = 1
+
+while (i<=7){
+    console.log("what is up my dude", i)
+    i++;
 }
+
