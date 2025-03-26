@@ -1,10 +1,10 @@
 // for do while Loop
 // while(condition){ }
 
-let i = 1;
+let i = 20;
 
 do{
     console.log("Jason W Maxwell is the ", i);
     i++;
-    } while(i<=10)
+    } while(i<=420)
 
