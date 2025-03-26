@@ -1,10 +1,10 @@
 // for while Loop
 // while(condition){ }
 
-let i = 1
+let i = 10
 
-while (i<=7){
-    console.log("what is up my dude", i)
+while (i<=100){
+    console.log("Jason W Maxwell is the ", i)
     i++;
 }
 
