@@ -1,10 +1,10 @@
-// for do while Loop
-// while(condition){ }
+// logical AND(&&)
+// logical OR (||)
+//logical NOT (!)
 
-let i = 20;
+const a = true;
+const b = false;
+const c = 4;
 
-do{
-    console.log("Jason W Maxwell is the ", i);
-    i++;
-    } while(i<=420)
+console.log(a && b);
 
