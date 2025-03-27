@@ -2,3 +2,5 @@
 
 const stringArray= ['eat','sleep', 'drink', 'dance'];
 console.log(stringArray [0]);
+console.log(stringArray [3]);
+console.log(stringArray [2]);
