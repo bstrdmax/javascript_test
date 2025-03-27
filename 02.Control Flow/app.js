@@ -2,11 +2,10 @@
 // logical OR (||)
 //logical NOT (!)
 
-const a = true;
-const b = false;
-const c = 4;
+let password = "jason.maxwell#7";
 
-console.log(a || b);
-console.log(c>2 || c<2);
-
-console.log(!a);
+if(password.length>= 8 && password.includes("jas")) {
+    console.log("Good to go");
+} else {
+    console.log("Nope, try again hommie");
+}
