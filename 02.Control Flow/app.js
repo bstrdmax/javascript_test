@@ -1,11 +1,4 @@
-// logical AND(&&)
-// logical OR (||)
-//logical NOT (!)
+//Arrays 0 index based, they start at 0 not 1
 
-let password = "jason.maxwell#7";
-
-if(password.length>= 8 || !password.includes("jas")) {
-    console.log("Good to go");
-} else {
-    console.log("Nope, try again hommie");
-}
+const myList= [];
+console.log(myList);
