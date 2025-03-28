@@ -24,3 +24,5 @@ fruits.push('grapes');
 console.log(fruits);
 fruits.pop();
 console.log(fruits);
+fruits.shift();
+console.log(fruits);
