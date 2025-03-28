@@ -1,14 +1,7 @@
-//objects {label: value}
+//fuction
 
+function greeting() {
+    console.log("what up sucka");
+}
 
-const car={
-    type: "Toyota",
-    model: "Tundra",
-    color: "Black",
-};
-
-console.log(car.type);
-console.log((car.type="Ford"));
-console.log(car);
-car.wheels = 4;
-console.log(car);
+greeting();
