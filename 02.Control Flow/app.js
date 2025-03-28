@@ -22,3 +22,5 @@ const fruits = [
 ];
 
 console.log(fruits);
+fruits.push('grapes');
+console.log(fruits);
