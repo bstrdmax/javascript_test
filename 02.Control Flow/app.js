@@ -1,32 +1,12 @@
+//objects {label: value}
 
-//concat();
-//includes();
-//push
-///unshift();
-//pop
-//shift();
-//sort
-//slice
-//splice
 
-const numbersCol = [
-    11,
-    13,
-    17,
-    12,
-    15,
-    21,
-    30,
-    50,
-    40
-];
+const people={
+    firstName: "Jason",
+    lastName: "Maxwell",
+    age: 46,
+    location: ['New York', 'Earth', 'USA'],
+    isProgrammer: true,
+};
 
-const proLang = ['JavaScript', 'Golang' , 'Python', 'PHP'];
-
-console.log(proLang.includes("Golang"));
-console.log(proLang.join("~"));
-console.log(proLang);
-console.log(proLang.reverse());
-console.log(proLang.slice(0,3));
-console.log(numbersCol);
-console.log(numbersCol.sort());
+console.log(people);
