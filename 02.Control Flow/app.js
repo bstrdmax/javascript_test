@@ -26,3 +26,5 @@ fruits.pop();
 console.log(fruits);
 fruits.shift();
 console.log(fruits);
+fruits.unshift('apples');
+console.log(fruits);
