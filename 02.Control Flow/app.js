@@ -20,11 +20,8 @@ const fruits = [
     "blueberries",
     "blackberries"
 ];
-fruits.push('grapes');
-console.log(fruits);
-fruits.pop();
-console.log(fruits);
-fruits.shift();
-console.log(fruits);
-fruits.unshift('apples');
-console.log(fruits);
+
+const moreFruits = ['oranges', 'grapes' , 'honeydew', 'watermelon'];
+
+const totsFruits = fruits.concat(moreFruits);
+console.log(totsFruits);
