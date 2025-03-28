@@ -5,10 +5,10 @@ const car={
     type: "Toyota",
     model: "Tundra",
     color: "Black",
-    wheels: "All Terrian",
 };
 
 console.log(car.type);
-console.log(car.model);
-console.log(car.color);
-console.log(car.wheels);
+console.log((car.type="Ford"));
+console.log(car);
+car.wheels = 4;
+console.log(car);
