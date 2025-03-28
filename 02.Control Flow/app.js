@@ -1,7 +1,8 @@
-//fuction
+//fuction return
 
-function greeting() {
-    console.log("what up sucka");
+function add(x,y) {
+    return x+y;
 }
 
-greeting();
+add (10, 20);
+console.log(add(10,20));
