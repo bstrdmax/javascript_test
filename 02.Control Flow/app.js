@@ -1,4 +1,4 @@
-//fuction return
+//function return
 
 function myFunction(m1,m2) {
     return m1*m2;
