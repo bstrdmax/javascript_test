@@ -1,26 +1,14 @@
 //objects {label: value}
 
 
-const people={
-    firstName: "Jason",
-    lastName: "Maxwell",
-    age: 46,
-    location: ['New York', 'Earth', 'USA'],
-    isProgrammer: true,
+const car={
+    type: "Toyota",
+    model: "Tundra",
+    color: "Black",
+    wheels: "All Terrian",
 };
 
-console.log(people.firstName);
-console.log(people.lastName);
-console.log(people.age);
-console.log(people.location [0]);
-console.log(people.location [1]);
-console.log(people.location [2]);
-console.log(people.isProgrammer);
-console.log(people);
-
-console.log(people ['firstName']);
-console.log(people['lastName']);
-console.log(people['age']);
-console.log(people ['location']);
-console.log(people['isProgrammer']);
-console.log(people);
+console.log(car.type);
+console.log(car.model);
+console.log(car.color);
+console.log(car.wheels);
