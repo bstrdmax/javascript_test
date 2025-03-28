@@ -24,3 +24,4 @@ const numbersCol = [
 const proLang = ['JavaScript', 'Golang' , 'Python', 'PHP'];
 
 console.log(proLang.includes("Golang"));
+console.log(proLang.join("~"));
