@@ -20,7 +20,7 @@ const fruits = [
     "blueberries",
     "blackberries"
 ];
-
+fruits.push('grapes');
 console.log(fruits);
 fruits.pop();
 console.log(fruits);
