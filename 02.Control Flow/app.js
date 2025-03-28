@@ -9,4 +9,4 @@ const people={
     isProgrammer: true,
 };
 
-console.log(people);
+console.log(people.isProgrammer);
