@@ -9,19 +9,18 @@
 //slice
 //splice
 
-const fruits = [
-    "apples",
-    "peaches",
-    "mango",
-    "stawberries",
-    "pineapple",
-    "grapefruit",
-    "pomegranate",
-    "blueberries",
-    "blackberries"
+const numbersCol = [
+    1,
+    3,
+    7,
+    12,
+    15,
+    21,
+    30,
+    37,
+    100
 ];
 
-const moreFruits = ['oranges', 'grapes' , 'honeydew', 'watermelon'];
+const proLang = ['JavaScript', 'Golang' , 'Python', 'PHP'];
 
-const totsFruits = fruits.concat(moreFruits);
-console.log(totsFruits);
+console.log(proLang.includes("Golang"));
