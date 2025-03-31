@@ -1,9 +1,11 @@
-//function return
+//global and local variables
+//global
+let textChat = "hi";
+console.log(textChat);
+//local
+function showChat(){
+    let textChat = "What's Up";
+    console.log(textChat);
+};
 
-function showCallFunc(fn) {
-    const value=10;
-    fn(value);
-}
-
-   showCallFunc(function (value) { 
-    console.log(value);});
+showChat ();
