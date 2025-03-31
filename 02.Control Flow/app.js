@@ -5,3 +5,10 @@ function sayHi(username) {
 }
 
 sayHi("jason")
+
+
+const greetings = function(user){
+    console.log(`Hello ${user}`)
+}
+
+greetings("jason W Maxwell")
