@@ -1,10 +1,12 @@
 //function return
 
-function showCallFunc(fn) {
-    const value=10;
-    fn(value);
+function greet(name, cb) {
+    console.log(`Hello ${name}`);
+    cb();
 }
 
-showCallFunc(function (value){
-    console.log(value);
-});
+function cb(){
+    console.log(`I am callback function`);
+};
+
+greet("Jason W Maxwell", cb)
