@@ -1,14 +1,10 @@
 //function return
 
-function sayHi(username) {
-    console.log(`Hello ${username}`);
+function showCallFunc(fn) {
+    const value=10;
+    fn(value);
 }
 
-sayHi("jason")
-
-
-const greetings = function(user){
-    console.log(`Hello ${user}`)
-}
-
-greetings("jason W Maxwell")
+showCallFunc(function (value){
+    console.log(value);
+});
