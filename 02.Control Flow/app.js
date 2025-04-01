@@ -19,4 +19,4 @@ const person = {
     }
 }
 
-console.log(person.greet());
+console.log(person);
