@@ -1,7 +1,9 @@
 //date
 
-const currentDate = new Date(2025,4,1,9,53,0,0);
-console.log(currentDate);
+const date = new Date();
+
+const year = date.getFullYear();
+console.log(`Year: ${year}`);
 
 
 
