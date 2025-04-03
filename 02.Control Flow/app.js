@@ -1,30 +1,14 @@
 //funciton expressions shortened
 
-//function greet(username){
-//    return `Hi ${username}`;
-//}
+function user(name,age,work){
+    return{
+        name:name,
+        age:age,
+        work:work,
+    };
+}
 
-//console.log(greet("Maximillion"));
-
-
-//greet = (username)=> `Hi ${username}`;
-//console.log(greet("Maximillion"));
-
-//const double = (n) => n *2;
-//console.log(double(1000));
-
-setTimeout(()=>{
-    console.log("Hello");
-    setTimeout(()=>{
-        console.log("Hey");
-        setTimeout(()=>{
-            console.log("Namaste");
-            setTimeout(()=>{
-                console.log("Hi");
-                setTimeout(()=>{
-                    console.log("Bonjour");
-                },2000);
-            },2000);
-        },2000);
-    },2000);
-},2000);
+const jason=user("Jason", 46, "programmmer");
+const jackson=user("Jax", 50, "lead programmer");
+console.log(jason);
+console.log(jackson);
