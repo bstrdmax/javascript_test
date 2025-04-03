@@ -1,6 +1,8 @@
 //strings with ``
 
-console.log(`this is some
-        random stuff`);
+const firstName= "Jason";
+const lastName= "Maxwell";
+
+console.log(`${firstName} ${lastName}`);
 
 
