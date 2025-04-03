@@ -1,8 +1,7 @@
-//date
+//set interval
 
-const date = new Date();
-
-date.setDate(date.getDate() +10);
-console.log(date);
+setTimeout(function(){
+    console.log(`this function will be executed after 3 seconds`)
+},3000)
 
 
