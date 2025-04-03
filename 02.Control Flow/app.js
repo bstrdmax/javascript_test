@@ -2,12 +2,11 @@
 
 const firstName= "Jason";
 const lastName= "Maxwell";
-//function info (){
-//    return `My name is Jason and I kick the ball, SUCKA`
-//}
+function info (){
+   return `Saw The quick brown fox jumps over the lazy dog`
+}
 
-console.log(firstName + " " + lastName);
 
-//console.log(`${firstName} ${lastName}`);
+console.log(`${firstName} ${lastName} ${info()}`);
 
 
