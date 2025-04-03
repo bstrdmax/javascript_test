@@ -1,12 +1,7 @@
-//strings with ``
+//funciton expressions shortened
 
-const firstName= "Jason";
-const lastName= "Maxwell";
-function info (){
-   return `Saw The quick brown fox jumps over the lazy dog`
+function greet(username){
+    return `Hi ${username}`;
 }
 
-
-console.log(`${firstName} ${lastName} ${info()}`);
-
-
+console.log(greet("Maximillion"));
